@@ -73,15 +73,15 @@
     },
     "carrier":{
         "AmazonMws":{
-           "UPS Rates":"UPS Rates",
-           "USPS Rates":"USPS Rates",
-           "FedEx Rates":"FedEx Rates",
-           "UPS Labels":"UPS Labels",
-           "USPS Labels":"USPS Labels",
-           "FedEx Labels":"FedEx Labels",
-           "UPS Tracking":"UPS Tracking",
-           "USPS Tracking":"USPS Tracking",
-           "FedEx Tracking":"FedEx Tracking"
+           "UPS Rates":"UPS Cene",
+           "USPS Rates":"USPS Cene",
+           "FedEx Rates":"FedEx Cene",
+           "UPS Labels":"UPS Labele",
+           "USPS Labels":"USPS Labele",
+           "FedEx Labels":"FedEx Labele",
+           "UPS Tracking":"UPS Praćenje pošiljke",
+           "USPS Tracking":"USPS Praćenje pošiljke",
+           "FedEx Tracking":"FedEx Praćenje pošiljke"
         },
         "APC":{
            "parcelConnectBookService":"Parcel Connect Book Service",
@@ -762,131 +762,131 @@
         }
      },
     "cart": {
-        "subtotal": "Subtotal",
-        "shipping_taxes_calculated_at_checkout": "Shipping and taxes will be calculated at checkout.",
-        "loading": "We're getting your cart ready...",
-        "secured_by": "Secured by Snipcart",
-        "summary": "Order summary",
-        "empty": "Your cart is empty.",
-        "invoice_number": "Invoice number",
-        "view_detailed_cart": "View detailed cart"
+        "subtotal": "Ukupno",
+        "shipping_taxes_calculated_at_checkout": "Puna cena uz dostavu biće izračunata na kraju kupovine.",
+        "loading": "Spremamo vašu korpu...",
+        "secured_by": "Osigurava Snipcart",
+        "summary": "Pregled korpe",
+        "empty": "Vaša korpa je spremna.",
+        "invoice_number": "Broj narudžbine",
+        "view_detailed_cart": "Vidite korpu sa detaljima"
     },
     "order": {
-        "loading": "We're getting your order details...",
-        "title": "Order"
+        "loading": "Dostavljamo vam detalje narudžbine...",
+        "title": "Narudžbina"
     },
     "discount_box": {
-        "promo_code": "Promo code?",
-        "promo_code_placeholder": "Promo code",
-        "promocode_applied": "Promotion applied"
+        "promo_code": "Promo kod?",
+        "promo_code_placeholder": "Promo kod",
+        "promocode_applied": "Promocija primenjena"
     },
     "address_form": {
-        "name": "Full name",
-        "email": "Email",
-        "address1": "Street address",
-        "address2": "Apt/Suite",
-        "city": "City",
-        "country": "Country",
-        "postalCode": "Postal/ZIP code",
-        "province": "Province/State",
-        "dont_see_address": "I can't find my address"
+        "name": "Ime i prezime",
+        "email": "Email adresa",
+        "address1": "Ulica",
+        "address2": "Broj",
+        "city": "Grad",
+        "country": "Država",
+        "postalCode": "Poštanski broj",
+        "province": "Opština",
+        "dont_see_address": "Ne mogu naći svoju adresu"
     },
     "billing": {
-        "title": "Billing",
-        "address": "Billing address",
-        "continue_to_shipping": "Continue to shipping",
-        "use_different_shipping_address": "Use different shipping address"
+        "title": "Naplata",
+        "address": "Adresa naplate",
+        "continue_to_shipping": "Idi na dostavu",
+        "use_different_shipping_address": "Dostavi na drugu adresus"
     },
     "customer": {
-        "information": "Customer information",
-        "payment_info": "My payment info",
+        "information": "Podaci o potrošaču",
+        "payment_info": "Moji podaci o naplati",
         "payment_method_update": {
-            "title": "Payment method update",
+            "title": "Izmena načina plaćanja",
             "outstanding_payment_failed": {
-                "title": "Payment failed",
-                "description": "Your payment method was updated, however, we were unable to charge the outstanding balance. Please use another payment method."
+                "title": "Plaćanje neuspešno",
+                "description": "Vaš način plaćanja je izmenjen, ali nismo uspeli da izvršimo naplatu. Molimo vas dodajte drugi način plaćanja."
             }
         }
     },
     "customer_details": {
-        "title": "Customer details"
+        "title": "Detalji o kupcu"
     },
     "customer_dashboard": {
-        "my_account": "My account",
-        "ordered_on": "Ordered on",
-        "next_billing_date": "Next billing date",
-        "price": "Price",
-        "total": "Total",
+        "my_account": "Moj nalog",
+        "ordered_on": "Datum narudžbine",
+        "next_billing_date": "Sledeći datum naplate",
+        "price": "Cena",
+        "total": "Zbir",
         "status": "Status",
-        "order": "Order %{invoice_number}",
-        "order_details": "Order details",
-        "loading": "Loading...",
-        "no_orders": "No orders found.",
-        "no_subscriptions": "No subscriptions found.",
-        "view_invoice": "View invoice",
-        "sign_out": "Sign out",
-        "show_more_orders": "Show %{smart_count} more order |||| Show %{smart_count} more orders",
-        "show_more_subscriptions": "Show %{smart_count} more subscription |||| Show %{smart_count} more subscriptions",
-        "orders": "Orders",
-        "subscriptions": "Subscriptions",
-        "subscription": "Subscription"
+        "order": "Narudžbina %{invoice_number}",
+        "order_details": "Detalji narudžbine",
+        "loading": "Učitavanje...",
+        "no_orders": "Nisu pronađene narudžbine.",
+        "no_subscriptions": "Nisu pronađene pretplate.",
+        "view_invoice": "Vidi fakturu",
+        "sign_out": "Izloguj se",
+        "show_more_orders": "Pokaži još %{smart_count} narudžbinu |||| Pokaži još %{smart_count} narudžbine",
+        "show_more_subscriptions": "Pokaži još %{smart_count} pretplatu |||| Pokaži još %{smart_count} pretplate",
+        "orders": "Narudžbine",
+        "subscriptions": "Pretplate",
+        "subscription": "Pretplata"
     },
     "customer_notifications": {
         "subscription": {
             "outstanding_payment": {
-                "title": "A payment is due for a subscription",
-                "description": "You currently have a subscription with an overdue payment. Please update your payment method by clicking on Edit beside it in your details."
+                "title": "Pretplata čeka naplatu",
+                "description": "Trenutno imate pretplatu koja čeka naplatu. Molimo vas da promenite način plaćanja tako što je izmenite u vašim detaljima."
             }
         }
     },
     "signin_form": {
-        "signin": "Sign In",
-        "dont_have_an_account": "Don't have an account?",
+        "signin": "Ulogujte se",
+        "dont_have_an_account": "Nemate nalog?",
         "email": "Email",
-        "password": "Password",
-        "forgot_your_password": "Forgot your password?",
-        "close_form": "Go back"
+        "password": "Lozinka",
+        "forgot_your_password": "Zaboravili ste lozinku?",
+        "close_form": "Idi nazad"
     },
     "forgot_password_form": {
-        "title": "Recover your password",
-        "instructions": "Enter your account's email address and we will send you a password reset link.",
+        "title": "Povratite lozinku",
+        "instructions": "Unesite email povezan sa vašim nalogom i poslaćemo vam link za resetovanje lozinke.",
         "email": "Email",
-        "email_instructions": "An email containing a link was sent to you. Click on it to reset your password.",
-        "action": "Send password reset email"
+        "email_instructions": "Email sa linkom vam je poslat. Kliknite ga kako biste resetovali lozinku.",
+        "action": "Pošalji email za resetovanje lozinke"
     },
     "reset_password_form": {
-        "title": "Reset your password",
-        "password": "New password",
-        "confirmation_password": "Re-enter your new password",
-        "action": "Reset password"
+        "title": "Resetujte vašu lozinku",
+        "password": "Nova lozinka",
+        "confirmation_password": "Unesite novu lozinku ponovo",
+        "action": "Resetuj lozinku"
     },
     "change_password_form": {
-        "title": "Change your password",
-        "current_password": "Current password",
-        "password": "New password",
-        "confirmation_password": "Re-enter your new password",
-        "action": "Change password"
+        "title": "Promenite lozinku",
+        "current_password": "Trenutna lozinka",
+        "password": "Nova lozinka",
+        "confirmation_password": "Unesite novu lozinku ponovo",
+        "action": "Promeni lozinku"
     },
     "register_form": {
-        "register": "Register",
-        "already_have_an_account": "Already have an account?",
+        "register": "Registrujte se",
+        "already_have_an_account": "Već imate nalog?",
         "email": "Email",
-        "password": "Password",
-        "confirm_password": "Confirm Password",
+        "password": "Lozinka",
+        "confirm_password": "Potvrdite lozinku",
         "requires_action": {
-            "title": "Check your emails",
-            "description": "This email address has already been used to complete an order. Please complete the registration process by using the link sent to you by email."
+            "title": "Proverite email",
+            "description": "Ova email adresa se već koristila za narudžbinu. Molimo vas da zavešite registraciju klikom na link u mejlu."
         }
     },
     "guest_checkout": {
-        "or": "Or",
-        "continue_as_a_guest": "Continue as a guest"
+        "or": "Ili",
+        "continue_as_a_guest": "Nastavite kao gostujući kupac"
     },
     "shipping": {
-        "title": "Shipping",
-        "shipping_to": "Shipping to:",
-        "address": "Shipping address",
-        "method": "Shipping method",
+        "title": "Dostava",
+        "shipping_to": "Dostava na:",
+        "address": "Adresa",
+        "method": "Način isporuke",
         "methods": {
             "example_localization_id": "This is an example of a localized shipping method"
         }
@@ -943,12 +943,12 @@
         "title": "Discounts"
     },
     "cart_summary": {
-        "taxes": "Taxes",
-        "taxes_included_in_price": "Some items have taxes included.",
-        "total": "Total",
-        "subtotal": "Subtotal",
-        "shipping": "Shipping",
-        "discount": "Discounts",
+        "taxes": "Porezi",
+        "taxes_included_in_price": "Porezi su već uključeni u cenu nekih proizvoda.",
+        "total": "Ukupno",
+        "subtotal": "Međuzbir",
+        "shipping": "Dostava",
+        "discount": "Popusti",
         "quantity": "x"
     },
     "errors": {
@@ -1053,52 +1053,52 @@
             "E.PO_BOX.INTERNATIONAL": "Cannot verify international PO Box."
         },
         "payment_failed": {
-            "title": "Unable to process payment",
-            "description": "Try again later, or contact us for support."
+            "title": "Neuspešno plaćanje",
+            "description": "Pokušajte ponovo kasnije, ili nas kontaktirajte za pomoć."
         },
         "payment_authorization": {
-            "title": "Unable to process payment",
-            "default": "Please review billing and payment information."
+            "title": "Neuspešno plaćanje",
+            "default": "Molimo vas pregledajte ponovo podatke za obračun i plaćanje."
         },
         "authentication_challenge": {
             "failed": {
-                "title": "Unable to process payment",
-                "description": "We have not been able to authenticate your payment information. Please try again"
+                "title": "Neuspešno plaćanje",
+                "description": "Neuspešna autentifikacija podataka plaćanja. Molimo vas pokušajte ponovo."
             }
         },
         "cart_items": {
             "cart_can_only_contain_one_subscription": {
-                "title": "Subscription couldn't be added to the cart",
-                "description": "A cart can only contain one subscription at a time."
+                "title": "Pretplata nije mogla biti ubačena u korpu",
+                "description": "Korpa može imati samo jednu pretplatu."
             },
             "cart_can_only_contain_items_or_subscriptions": {
-                "title": "Product couldn't be added to the cart",
-                "description": "The cart can only contain either items or a subscription."
+                "title": "Proizvod nije mogao da se ubaci u korpu",
+                "description": "Korpa može imati samo proizvode i pretplate"
             }
         },
-        "customer_exists": "This email is already used.",
-        "customer_password_missmatch": "The two passwords must match.",
-        "customer_password_token_expired": "Your password recovery token has expired.",
-        "customer_password_token_invalid": "Your password recovery token is invalid.",
-        "customer_not_found": "The email address is not associated with any account.",
-        "invalid_credentials": "Invalid email or password.",
-        "customer_current_password_invalid": "Invalid password."
+        "customer_exists": "Ova email adresa je već zauzeta.",
+        "customer_password_missmatch": "Lozinke se ne podudaraju",
+        "customer_password_token_expired": "Vaš token za vraćanje lozinke je istekao.",
+        "customer_password_token_invalid": "Vaš token za vraćanje lozinke nije validan.",
+        "customer_not_found": "Ova email adresa nije povezana ni sa jednim nalogom.",
+        "invalid_credentials": "Netačna email adresa ili lozinka.",
+        "customer_current_password_invalid": "Netačna lozinka."
     },
     "shippingRates": {
-        "loading": "Loading shipping rates"
+        "loading": "Učitavanje troškova dostave"
     },
     "customer_orders": {
-        "loading": "Loading..."
+        "loading": "Učitava se..."
     },
     "digital_goods": {
-        "download": "Download file"
+        "download": "Preuzmite datoteku"
     },
     "confirmation": {
-        "thank_you_for_your_order": "Thank you for your order",
-        "async_confirmation_notice": "Your order has been placed and is currently processing. You will receive a confirmation shortly."
+        "thank_you_for_your_order": "Hvala vam na narudžbini",
+        "async_confirmation_notice": "Narudžbina je poslata i trenutno se obrađuje. Dobićete potvrdu uskoro."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Shipping and taxes will be calculated after an address is provided."
+        "shipping_taxes_calculated_when_address_provided": "Cena dostave i poreza će se izračunati nakon unete adrese."
     },
     "countries": {
         "AD": {
