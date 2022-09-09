@@ -762,44 +762,44 @@
         }
      },
     "cart": {
-        "subtotal": "Subtotal",
-        "shipping_taxes_calculated_at_checkout": "Shipping and taxes will be calculated at checkout.",
-        "loading": "We're getting your cart ready...",
+        "subtotal": "Ukupno",
+        "shipping_taxes_calculated_at_checkout": "Poštarina i porezi se računaju na kraju.",
+        "loading": "Spremanje korpe...",
         "secured_by": "Secured by Snipcart",
-        "summary": "Order summary",
-        "empty": "Your cart is empty.",
-        "invoice_number": "Invoice number",
-        "view_detailed_cart": "View detailed cart"
+        "summary": "Sažetak narudžbine",
+        "empty": "Vaša korpa je prazna.",
+        "invoice_number": "Broj narudžbine",
+        "view_detailed_cart": "Vidi detalje korpe"
     },
     "order": {
-        "loading": "We're getting your order details...",
-        "title": "Order"
+        "loading": "Spremamo detalje vaše narudžbine...",
+        "title": "Narudžbina"
     },
     "discount_box": {
-        "promo_code": "Promo code?",
-        "promo_code_placeholder": "Promo code",
-        "promocode_applied": "Promotion applied"
+        "promo_code": "Promo kod?",
+        "promo_code_placeholder": "Promo kod",
+        "promocode_applied": "Promocija primenjena"
     },
     "address_form": {
-        "name": "Full name",
+        "name": "Ime i prezime",
         "email": "Email",
-        "address1": "Street address",
-        "address2": "Apt/Suite",
-        "city": "City",
-        "country": "Country",
-        "postalCode": "Postal/ZIP code",
-        "province": "Province/State",
-        "dont_see_address": "I can't find my address"
+        "address1": "Adresa",
+        "address2": "Broj stana",
+        "city": "Grad",
+        "country": "Država",
+        "postalCode": "Poštanski broj",
+        "province": "Opština",
+        "dont_see_address": "Ne mogu naći svoju adresu"
     },
     "billing": {
-        "title": "Billing",
-        "address": "Billing address",
-        "continue_to_shipping": "Continue to shipping",
-        "use_different_shipping_address": "Use different shipping address"
+        "title": "Naplata",
+        "address": "Adresa naplate",
+        "continue_to_shipping": "Dalje na isporuku",
+        "use_different_shipping_address": "Koristi drugačiju adresu za isporuku"
     },
     "customer": {
-        "information": "Customer information",
-        "payment_info": "My payment info",
+        "information": "Podaci o kupcu",
+        "payment_info": "Podaci o načinu plaćanja",
         "payment_method_update": {
             "title": "Payment method update",
             "outstanding_payment_failed": {
@@ -809,7 +809,7 @@
         }
     },
     "customer_details": {
-        "title": "Customer details"
+        "title": "Detalji o kupcu"
     },
     "customer_dashboard": {
         "my_account": "My account",
@@ -880,24 +880,24 @@
     },
     "guest_checkout": {
         "or": "Or",
-        "continue_as_a_guest": "Continue as a guest"
+        "continue_as_a_guest": "Nastavi kao gost"
     },
     "shipping": {
-        "title": "Shipping",
-        "shipping_to": "Shipping to:",
-        "address": "Shipping address",
-        "method": "Shipping method",
+        "title": "Dostava",
+        "shipping_to": "Dostava na adresu:",
+        "address": "Adresa dostave",
+        "method": "Način dostave",
         "methods": {
             "example_localization_id": "This is an example of a localized shipping method"
         }
     },
     "shipping_rates": {
-        "guaranteed_delivery_days": "Guaranteed to be delivered in %{guaranteedDaysToDelivery} day(s)."
+        "guaranteed_delivery_days": "Garantovana dostava za %{guaranteedDaysToDelivery} dana."
     },
     "payment": {
         "form": {
-            "deferred_payment_title": "Deferred Payment",
-            "deferred_payment_instructions": "By placing this order, you agree to pay later through the payment method identified by the merchant.",
+            "deferred_payment_title": "Plaćanje pouzećem",
+            "deferred_payment_instructions": "Plaćanje kuriru prilikom preuzimanja paketa. Cena poštarine sklona je promeni u skladu sa važećim cenovnikom kurirske službe.",
             "card_label": "Credit card",
             "card_number": "Card number",
             "card_expiration": "MM/YY",
@@ -908,13 +908,13 @@
             "invalid_cvv": "CVV is invalid",
             "invalid_postal_code": "Postal code is invalid"
         },
-        "still_pending_notice": "Your payment is still being processed.",
-        "title": "Payment",
-        "continue_to_payment": "Continue to payment",
+        "still_pending_notice": "Vaša uplata se obrađuje.",
+        "title": "Plaćanje",
+        "continue_to_payment": "Nastavi na plaćanje",
         "credit_card": "Credit card",
-        "place_order": "Place order",
-        "preparing_payment_session": "Preparing payment...",
-        "processing_payment": "Processing payment...",
+        "place_order": "Pošalji narudžbinu",
+        "preparing_payment_session": "Priprema plaćanja...",
+        "processing_payment": "Obrada plaćanja...",
         "checkout_with": "Checkout with",
         "checkout_with_method": "Checkout with %{method}",
         "method_icon": "%{method} icon",
@@ -943,12 +943,12 @@
         "title": "Discounts"
     },
     "cart_summary": {
-        "taxes": "Taxes",
+        "taxes": "Porezi",
         "taxes_included_in_price": "Some items have taxes included.",
         "total": "Total",
-        "subtotal": "Subtotal",
-        "shipping": "Shipping",
-        "discount": "Discounts",
+        "subtotal": "Ukupno",
+        "shipping": "Dostava",
+        "discount": "Popusti",
         "quantity": "x"
     },
     "errors": {
@@ -1076,29 +1076,29 @@
                 "description": "The cart can only contain either items or a subscription."
             }
         },
-        "customer_exists": "This email is already used.",
-        "customer_password_missmatch": "The two passwords must match.",
-        "customer_password_token_expired": "Your password recovery token has expired.",
-        "customer_password_token_invalid": "Your password recovery token is invalid.",
-        "customer_not_found": "The email address is not associated with any account.",
-        "invalid_credentials": "Invalid email or password.",
-        "customer_current_password_invalid": "Invalid password."
+        "customer_exists": "Email je već u upotrebi.",
+        "customer_password_missmatch": "Lozinke se ne podudaraju.",
+        "customer_password_token_expired": "Token za povraćaj lozinke je istekao.",
+        "customer_password_token_invalid": "Token za povraćaj lozinke nije validan.",
+        "customer_not_found": "Adresa nije povezana sa nalogom.",
+        "invalid_credentials": "Nevalidan email ili lozinka.",
+        "customer_current_password_invalid": "Lozinka nije validna."
     },
     "shippingRates": {
-        "loading": "Loading shipping rates"
+        "loading": "Učitavanje cene poštarine.."
     },
     "customer_orders": {
-        "loading": "Loading..."
+        "loading": "Učitavanje..."
     },
     "digital_goods": {
-        "download": "Download file"
+        "download": "Preuzmite datoteku"
     },
     "confirmation": {
-        "thank_you_for_your_order": "Thank you for your order",
-        "async_confirmation_notice": "Your order has been placed and is currently processing. You will receive a confirmation shortly."
+        "thank_you_for_your_order": "Hvala vam na narudžbini",
+        "async_confirmation_notice": "Vaša narudžbina je poslata i trenutno se obrađuje. Uskoro ćete dobiti potvrdu."
     },
     "checkout": {
-        "shipping_taxes_calculated_when_address_provided": "Shipping and taxes will be calculated after an address is provided."
+        "shipping_taxes_calculated_when_address_provided": "Poštarina i porez će biti izračunati nakon unete adrese."
     },
     "countries": {
         "AD": {
